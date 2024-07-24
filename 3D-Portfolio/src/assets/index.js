@@ -10,6 +10,8 @@ import close from "./close.svg";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
+import python from "./tech/python.png";
+import cpp from "./tech/cpp.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -20,19 +22,37 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import capcut from "./tech/capcut.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import baardana from "./company/baardana.png";
+import admarc from "./company/admarc.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import reception from "./hospital.png";
+import coffeeshop from "./coffeeshop.png";
+import codealpha from "./company/codealpha.png";
+import youtube from "./company/youtube.png";
+import hms from "./hms.png";
 
 export {
   logo,
+  youtube,
+  codealpha,
+  baardana,
+  admarc,
+  capcut,
+  cpp,
+  coffeeshop,
+  reception,
+  hms,
   backend,
+  python,
   creator,
   mobile,
   web,

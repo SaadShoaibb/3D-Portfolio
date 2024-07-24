@@ -23,6 +23,16 @@ import {
     jobit,
     tripguide,
     threejs,
+    reception,
+    coffeeshop,
+    admarc,
+    baardana,
+    codealpha,
+    youtube,
+    hms,
+    capcut,
+    python,
+    cpp,
   } from "../assets";
   
   export const navLinks = [
@@ -50,7 +60,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "3D Developer",
       icon: backend,
     },
     {
@@ -81,10 +91,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -109,63 +115,65 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name:"python",
+      icon:python,
+    },
+    {
+      name:"C++",
+      icon: cpp,
     },
    
   ];
   
   const experiences = [
     {
-      title: "FrontEnd Developer",
-      company_name: "AdMarc",
-      icon: starbucks,
+      title: "Web Developer",
+      company_name: "Baardana",
+      icon: baardana,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing and maintaining web applications using React.js and other technologies.",
+        "Collaborating with cross-functional teams sales managers, product managers, and other team members to achieve the required revenue",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Baardana",
-      icon: tesla,
+      title: "Frontend Developer",
+      company_name: "Admarc",
+      icon: admarc,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Aug 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and maintained web applications using React.js and other related technologies.",
+        "Performing prototype driven development, with consistent and clear communication",
+        "Implementing responsive and sleek designs for the E-commerce sites.",
+        "Marketing and branding the product to enhance company revenue",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Content Creator",
+      company_name: "Youtube",
+      icon: youtube,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Nov 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Creating engaging and entertaining videos",
+        "Developing a personality and brand for marketing.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Web Development Intern",
+      company_name: "Code Alpha",
+      icon: codealpha,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jul 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Creating web applications using react ",
+        "Collaborating with experienced developers to enhance my knowledge and skills on web development.",
+        "helped the team as an internee to develop sleek 3D designs using threeJs",
+        "Helped assure the quality of software through additional reviews and spotting bugs.",
       ],
     },
   ];
@@ -173,7 +181,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Saad proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -181,15 +189,15 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "I've never met a web developer who truly cares about their client's success like Saad does.",
+      name: "Huzaifa Rehan",
+      designation: "CEO",
+      company: "Rangoli",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Saad optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
@@ -220,45 +228,45 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Galaxys",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Front end web application for a coffee shop, that allows customers to book a table, order their favorite coffee, subscribe to the newsletter, or view the aesthetics of the coffee shop.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "node",
           color: "cyan-text-gradient",
         },
       ],
-      image: jobit,
+      image: coffeeshop,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Hospital Reception System",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive reception management platform that allows users to book appointments, register patients, view doctors, and create,print and email invoices with their respective bills.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "node",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "express",
           color: "cyan-text-gradient",
         },
       ],
-      image: tripguide,
+      image: hms,
       source_code_link: "https://github.com/",
     },
   ];

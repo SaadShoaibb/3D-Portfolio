@@ -25,7 +25,7 @@ const ExperienceCard = ({ experience }) => {
       icon={
         <motion.div
           className="flex justify-center items-center w-full h-full"
-          whileHover={{ scale: 1.5 }}
+          whileHover={{ scale: 1.8 }}
         >
           <img
             src={experience.icon}
