@@ -246,7 +246,7 @@ import {
         },
       ],
       image: coffeeshop,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/SaadShoaibb/CoffeeShop-FrontEnd-React",
     },
     {
       name: "Hospital Reception System",
@@ -267,7 +267,7 @@ import {
         },
       ],
       image: hms,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/SaadShoaibb/Hospital-Reception-Management-System",
     },
   ];
   

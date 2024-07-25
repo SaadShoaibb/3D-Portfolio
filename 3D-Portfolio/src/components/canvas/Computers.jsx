@@ -2,6 +2,7 @@ import { Suspense, useEffect, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
+import { useWebGLContext } from '../WebGLContextProvider';
 
 const Computers = ({ isMobile }) => {
   const { scene } = useGLTF('./desktop_pc/scene.gltf');
@@ -37,8 +38,8 @@ const Computers = ({ isMobile }) => {
 };
 
 const ComputersCanvas = () => {
+  const { activeCanvas } = useWebGLContext();
   const [isMobile, setIsMobile] = useState(false);
-  
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width: 1000px)');
@@ -55,9 +56,11 @@ const ComputersCanvas = () => {
     };
   }, []);
 
+  if (activeCanvas !== 'Computers') return null;
+
   return (
     <Canvas
-      frameLoop="demand"
+      frameloop="demand"
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
