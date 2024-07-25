@@ -16,7 +16,6 @@ return(
   <p className={styles.sectionSubText}>My skills</p>
   <h2 className= {styles.sectionHeadText}>Tech Stack.</h2>
  <div className="relative flex flex-wrap flex-row justify-center gap-10">
-    <StarsCanvas /> {/* Add StarsCanvas here to display stars in Tech component */}
     <SingleCanvas>
       {technologies.map((technology) => (
         <Ball key={technology.name} imgUrl={technology.icon} />
