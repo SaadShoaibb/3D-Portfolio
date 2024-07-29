@@ -39,6 +39,7 @@ import coffeeshop from "./coffeeshop.png";
 import codealpha from "./company/codealpha.png";
 import youtube from "./company/youtube.png";
 import hms from "./hms.png";
+import saad from "./saad.png";
 
 export {
   logo,
@@ -80,3 +81,4 @@ export {
   jobit,
   tripguide,
 };
+export default saad;
