@@ -33,6 +33,7 @@ import {
     capcut,
     python,
     cpp,
+    craftyai,
   } from "../assets";
   
   export const navLinks = [
@@ -207,16 +208,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "CraftyAI",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Generative AI Software as a service application that allows users to generate videos, images, music, photos, code and transcribe audio. with clerk authentication, prismadb and stripe payments it ensures swift services.",
       tags: [
         {
-          name: "react",
+          name: "NextJS",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "PrismaDB",
           color: "green-text-gradient",
         },
         {
@@ -224,13 +225,13 @@ import {
           color: "cyan-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: craftyai,
+      source_code_link: "https://github.com/SaadShoaibb/crafty",
     },
     {
       name: "Galaxys",
       description:
-        "Front end web application for a coffee shop, that allows customers to book a table, order their favorite coffee, subscribe to the newsletter, or view the aesthetics of the coffee shop.",
+        "Front end web application for a coffee shop, that allows customers to book a table, order their favorite coffee, subscribe to the newsletter, or view the aesthetics of the coffee shop, bringing about its creativity to life.",
       tags: [
         {
           name: "react",
@@ -241,7 +242,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "node",
+          name: "vite",
           color: "cyan-text-gradient",
         },
       ],
@@ -258,11 +259,11 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "node",
+          name: "NodeJS",
           color: "green-text-gradient",
         },
         {
-          name: "express",
+          name: "ExpressJS",
           color: "cyan-text-gradient",
         },
       ],

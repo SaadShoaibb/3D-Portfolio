@@ -40,6 +40,7 @@ import codealpha from "./company/codealpha.png";
 import youtube from "./company/youtube.png";
 import hms from "./hms.png";
 import saad from "./saad.png";
+import craftyai from "./craftyai.png";
 
 export {
   logo,
@@ -78,6 +79,7 @@ export {
   starbucks,
   tesla,
   carrent,
+  craftyai,
   jobit,
   tripguide,
 };
