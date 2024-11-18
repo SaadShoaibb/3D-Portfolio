@@ -5,7 +5,6 @@ import CanvasLoader from '../Loader';
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
-
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
       <ambientLight intensity={0.25} />
@@ -27,11 +26,16 @@ const Ball = (props) => {
 };
 
 const BallCanvas = ({ icon }) => {
+  // Assuming you want to handle mobile devices, define isMobile
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
   return (
     <Canvas frameLoop="demand" gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
         <Ball imgUrl={icon} />
+        {/* Remove or define the Computers component if necessary */}
+        {/* <Computers isMobile={isMobile} /> */}
       </Suspense>
       <Preload all />
     </Canvas>

@@ -31,9 +31,11 @@ import {
     youtube,
     hms,
     capcut,
+    next,
     python,
     cpp,
     craftyai,
+    prisma,
   } from "../assets";
   
   export const navLinks = [
@@ -123,6 +125,14 @@ import {
       name:"C++",
       icon: cpp,
     },
+    {  
+      name:"NextJS",
+      icon: next,
+    },
+    {  
+      name:"PrismaDB",
+      icon: prisma,
+    }
    
   ];
   

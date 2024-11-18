@@ -73,7 +73,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          The following projects highlight my dedication, uniqueness, and experience through
+          Following are some projects that highlight my dedication, uniqueness, and experience through
           real world examples of my work.
         </motion.p>
       </div>

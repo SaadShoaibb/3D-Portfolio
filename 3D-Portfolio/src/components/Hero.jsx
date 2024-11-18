@@ -1,10 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import dynamic from 'next/dynamic';
-
-// Dynamically import ComputersCanvas (client-side only)
-const ComputersCanvas = dynamic(() => import('./canvas/Computers'), { ssr: false });
+import ComputersCanvas from './canvas/Computers'; // Ensure the correct path
 
 const Hero = () => {
   return (
@@ -23,7 +20,6 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      {/* Dynamically loaded canvas */}
       <ComputersCanvas />
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
